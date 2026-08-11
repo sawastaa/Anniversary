@@ -287,3 +287,11 @@ function updateLoveMeter(){
 }
 document.addEventListener('scroll', updateLoveMeter, { passive:true });
 updateLoveMeter();
+
+const music = document.getElementById("music");
+
+document.addEventListener("click", () => {
+    music.play().catch(error => {
+        console.log("Musik belum bisa diputar:", error);
+    });
+}, { once: true });
