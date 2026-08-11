@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>1 Tahun Kita 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="love-meter" aria-hidden="true">
+  <div class="track">
+    <div class="fill" id="love-fill"></div>
+    <div class="marker" id="love-marker"></div>
+  </div>
+  <div class="pct" id="love-pct">0%</div>
+</div>
+
+<section id="hero">
+  <div id="starfield"></div>
+  <div id="hearts-hero"></div>
+  <div class="hero-moon" id="hero-moon"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow" id="hero-eyebrow">SEBUAH KEJUTAN KECIL UNTUK</div>
+    <h1 class="hero-title" id="hero-title">1 TAHUN KITA 💗</h1>
+    <p class="hero-sub" id="hero-sub">scroll pelan-pelan ya, sayang...</p>
+  </div>
+  <div class="scroll-cue">▼ SCROLL ▼</div>
+</section>
+
+<section id="cerita-awal">
+  <div class="section-eyebrow"><span id="heart-icon-1"></span> BAB 1</div>
+  <h2 class="section-title reveal" id="awal-title">Gimana Semua Ini Dimulai</h2>
+  <div class="story-flex">
+    <figure class="photo-frame reveal" data-placeholder="FOTO KALIAN BERDUA&#10;(awal kenal / jadian)">
+      <img src="images/foto-awal.jpg" alt="Foto awal cerita kalian" onerror="this.parentElement.classList.add('no-photo')">
+      <figcaption id="awal-caption">taruh caption di CONFIG.awalCerita.caption</figcaption>
+    </figure>
+    <p class="section-text reveal" id="awal-text">Edit ceritamu di CONFIG.awalCerita.teks</p>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="inner">
+    <div class="section-eyebrow"><span id="heart-icon-2"></span> BAB 2</div>
+    <h2 class="section-title reveal">Momen-Momen yang Aku Suka Banget</h2>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<section id="alasan">
+  <div class="section-eyebrow"><span id="heart-icon-3"></span> BAB 3</div>
+  <h2 class="section-title reveal" id="alasan-title">Alasan Kenapa Aku Sayang Kamu</h2>
+  <ul class="reasons-list" id="reasons-list"></ul>
+</section>
+
+<section id="timeline">
+  <div class="section-eyebrow"><span id="heart-icon-4"></span> BAB 4</div>
+  <h2 class="section-title reveal">Perjalanan Setahun Ini</h2>
+  <div class="tl" id="tl-list"></div>
+</section>
+
+<section id="finale">
+  <div id="hearts-finale" style="position:absolute; inset:0; pointer-events:none;"></div>
+  <div class="inner">
+    <div class="section-eyebrow" style="justify-content:center; color:var(--yellow);"><span id="heart-icon-5"></span> PENUTUP</div>
+    <h2 class="section-title reveal" id="finale-title">Makasih Udah Jadi Bagian Ceritaku</h2>
+    <div class="cake" id="cake-holder"></div>
+    <p class="section-text reveal" style="margin:0 auto; color:#f4f0ff;" id="finale-text">
+      Edit pesan penutup di CONFIG.finale.teks
+    </p>
+    <button class="pixel-btn" id="btn-surat">BUKA SURAT KECIL 💌</button>
+    <div id="surat"></div>
+  </div>
+</section>
+
+<footer id="footer-text">
+  dibuat dengan 💖 — edit di CONFIG.footer
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
