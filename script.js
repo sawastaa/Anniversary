@@ -14,10 +14,10 @@ const CONFIG = {
 
 
   galeri: [
-    { src: "images/foto-1.jpg", caption: "caption" },
-    { src: "images/foto-2.jpg", caption: "caption" },
-    { src: "images/foto-3.jpg", caption: "caption" },
-    { src: "images/foto-4.jpg", caption: "caption" }
+    { src: "images/foto-1.jpg", caption: "Ngedate after school!!" },
+    { src: "images/foto-2.jpg", caption: "BRAGA YUKK, Yaudahh" },
+    { src: "images/foto-3.jpg", caption: "beres gradu bisa photobox emang?" },
+    { src: "images/foto-4.jpg", caption: "DAYUMMMM TINGGIIIIIIII" }
   ],
 
   alasanTitle: "Alasan Kenapa Aku Sayang Kamu",
@@ -31,10 +31,10 @@ const CONFIG = {
 
 
   timeline: [
-    { tanggal: "Bulan 1", teks: "Test" },
-    { tanggal: "Bulan 4", teks: "Test" },
-    { tanggal: "Bulan 8", teks: "Test" },
-    { tanggal: "Bulan 12", teks: "Test" }
+    { tanggal: "Bulan 1", teks: "Bulan ini aku beneran baru tau, kalau kamu ini adalah orang yang memiliki banyak rahasia. Sungguh. Tapi aku selalu ingin tahu, mungkin iya di waktu ini aku belum terlalu banyak tahu tapi aku sennag karena aku memiliki kamu di builan pertama ini" },
+    { tanggal: "Bulan 4", teks: "Bulan 4 adalah bulan yang menurut aku cukup sulit untuk kita berdua karena beragam masalah dan perbedaan pendapat pada waktu-awktu tertentu, but kita selalu belaajar kita berrdua saling belajar untuk saliing melengkapi. Makanya aku selalu ingin membuatkan sesuatu special di kelipatan 4" },
+    { tanggal: "Bulan 8", teks: "Bulan ke-8 adalah bulan yang selalu aku ucapkan rasa terimakaish. Kita masihlah remaja dan muda di umur ini, kita banyak melakukan keslaahan di fase-fase ini. Terimakaish karena kita telah bertahan" },
+    { tanggal: "Bulan 12", teks: "AND OUR ANNIVERSARY!! YEAYYYY. Liat dehhhh, kita udah sampe sejauh iniiiii. YEAYYYYYY, FOREEEEE WE WILL COMEEEEE" }
   ],
 
   finale: {
