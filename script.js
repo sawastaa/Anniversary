@@ -15,8 +15,8 @@ const CONFIG = {
 
   galeri: [
     { src: "images/foto-1.jpg", caption: "caption" },
-    { src: "images/foto2.jpg", caption: "caption" },
-    { src: "images/foto3.jpg", caption: "caption" },
+    { src: "images/foto-2.jpg", caption: "caption" },
+    { src: "images/foto-3.jpg", caption: "caption" },
     { src: "images/foto-4.jpg", caption: "caption" }
   ],
 
